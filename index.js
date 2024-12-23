@@ -16,8 +16,8 @@ function spanDiv(sentence, classes, id) {
     violatedDiv = divAboutToBeViolated
     document.body.appendChild(violatedDiv);
 }
-spanDiv("My Directory", "text-a transitions", "header");
-spanDiv("All my projects!", "text-b", "subtext");
+spanDiv("Moon Directory", "text-a transitions", "header");
+spanDiv("All my projects! Yay!", "text-b", "subtext");
 
 const header = document.getElementById("header");
 const headerLetters = header.getElementsByTagName("span");
